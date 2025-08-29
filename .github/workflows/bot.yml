@@ -3,7 +3,6 @@ name: CrazyTime
 on:
   schedule:
     - cron: "*/15 * * * *"   # every 15 minutes
-  workflow_dispatch:          # manual run button
 
 jobs:
   run-bot:
