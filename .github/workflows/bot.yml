@@ -2,7 +2,7 @@ name: CrazyTimeYML
 
 on:
   schedule:
-    - cron: "*/12 * * * *"   # run every 12 minutes
+    - cron: "*/10 * * * *"   # run every 10 minutes
   workflow_dispatch:
 
 jobs:
